@@ -28,4 +28,4 @@ def complete():
     return render_template('complete.html', questions=questions, answers=request.form,zip=zip)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
