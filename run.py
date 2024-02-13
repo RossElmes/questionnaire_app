@@ -6,6 +6,9 @@ import pandas as pd
 app = Flask(__name__,template_folder='templates')
 app.secret_key = 'your_secret_key'
 
+answer_ref = pd.read_csv('static/fixmyfeet_answer_ref.csv')
+question_ref = pd.read_csv('static/fixmyfeet_questions_ref.csv')
+
 # Dummy questions (replace with your actual questions)
 # Example question list
 questions = [
@@ -22,11 +25,11 @@ questions = [
     "question": 'What is yor age',
     "options": [{"text":'Under 12',"value":6}, 
     {"text":'12-19',"value":5}, 
-    {"text":'20-29',"value":4}, 
-    {"text":'30-39',"value":3},
-    {"text":'40-49',"value":3},
-    {"text":'50-59',"value":1},
-    {"text":'60-69',"value":1},
+    {"text":'20-29',"value":5}, 
+    {"text":'30-39',"value":4},
+    {"text":'40-49',"value":4},
+    {"text":'50-59',"value":3},
+    {"text":'60-69',"value":2},
     {"text":'70-79',"value":1},
     {"text":'80+',"value":1}],
   },
@@ -221,13 +224,9 @@ questions = [
           {"text":"Yes","value":5},
           {"text":"No","value":0},
       ]
-}]
+}, 
 
-
-multiply_factor = [
-
-  {
-    "id": 14,
+{"id": 14,
       "question": 'Is there a history of knee replacement',
       "options": [
           {"text":"Yourself","value":6},
