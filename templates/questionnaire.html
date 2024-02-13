@@ -7,13 +7,17 @@
 <body>
     <form action="{{ url_for('questionnaire', question_id=question_id) }}" method="post">
         <h2>{{ question.question }}</h2>
-        {% for answer in question.answers %}
+        {% if question.image %}
+            <img src="{{ question.image }}" alt="Question Image">
+        {% endif %}
+        {% for answer in question.options %}
         <div>
-            <input type="radio" id="{{ loop.index }}" name="answer" value="{{ answer }}">
-            <label for="{{ loop.index }}">{{ answer }}</label>
+            <input type="radio" id="answer{{ loop.index }}" name="answer_value" value="{{answer.text}}">
+            <label for="answer{{ loop.index }}">{{ answer.text }}</label>
         </div>
         {% endfor %}
         <button type="submit">Next</button>
     </form>
+    
 </body>
 </html>
