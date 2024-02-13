@@ -5,15 +5,15 @@
     <title>Questionnaire</title>
 </head>
 <body>
-    <form action="{{ url_for('questionnaire', question_id=question_id) }}" method="post">
-        <h2>{{ question.question }}</h2>
+    <form action="{{ url_for('questionnaire', question_iter=question_iter) }}" method="post">
+        <h2>{{ question }}</h2>
         {% if question.image %}
             <img src="{{ question.image }}" alt="Question Image">
         {% endif %}
-        {% for answer in question.options %}
+        {% for answer in answers %}
         <div>
-            <input type="radio" id="answer{{ loop.index }}" name="answer_value" value="{{answer.text}}">
-            <label for="answer{{ loop.index }}">{{ answer.text }}</label>
+            <input type="radio" id="answer{{ loop.index }}" name="answer_value" value="{{answer.answer_id}}">
+            <label for="answer{{ loop.index }}">{{answer.answer_text }}</label>
         </div>
         {% endfor %}
         <button type="submit">Next</button>

@@ -6,9 +6,9 @@ import pandas as pd
 app = Flask(__name__,template_folder='templates')
 app.secret_key = 'your_secret_key'
 
-answer_ref = pd.read_csv('static/fixmyfeet_answer_ref.csv')
+answer_ref = pd.read_csv('static/fixmyfeet_answers_ref.csv')
 question_ref = pd.read_csv('static/fixmyfeet_questions_ref.csv')
-
+ 
 # Dummy questions (replace with your actual questions)
 # Example question list
 questions = [
@@ -283,7 +283,7 @@ entries=[]
 @app.route('/')
 def index():
     session.clear()
-    return render_template('index.html', question=questions[0], question_id=0)
+    return render_template('index.html', question=questions[0], question_iter=0)
 
 """ @app.route('/next', methods=['POST'])
 def next_question():
@@ -294,8 +294,8 @@ def next_question():
         return redirect(url_for('complete')) """
 
 
-@app.route('/questionnaire/<int:question_id>', methods=['GET', 'POST'])
-def questionnaire(question_id):
+@app.route('/questionnaire/<int:question_iter>', methods=['GET', 'POST'])
+def questionnaire(question_iter):
     if request.method == 'POST':
         selected_answer_value = request.form.get('answer_value')
         print(selected_answer_value)
@@ -309,15 +309,15 @@ def questionnaire(question_id):
         session['value'].append(int(selected_answer_value))  # Store value, convert to int
         
         session.modified = True  # Ensure session is marked as modified
-        print(session)
         
-        if question_id < len(questions):
-            return redirect(url_for('questionnaire', question_id=question_id + 1))
+        if question_iter < len(questions):
+            return redirect(url_for('questionnaire', question_iter=question_iter + 1))
         else:
             return redirect(url_for('complete'))
     
-    current_question = questions[question_id - 1]
-    return render_template('questionnaire.html', question=current_question, question_id=question_id)
+    question_text = question_ref.loc[question_ref['question_iter'] == question_iter, 'question_text'].values[0]
+    answers = answer_ref[answer_ref['question_iter'] == question_iter][['answer_id', 'answer_text']]
+    return render_template('questionnaire.html', question=question_text, answers=answers.to_dict(orient='records'), question_iter=question_iter)
 
 
 
@@ -342,7 +342,7 @@ def patient_details():
         session['answers'] = []
         # Save patient details and redirect to the first question
         session['patient_details'] = request.form.to_dict()
-        return redirect(url_for('questionnaire', question_id=1))
+        return redirect(url_for('questionnaire', question_iter=1))
     return render_template('patient_details.html')
 
 if __name__ == '__main__':
