@@ -3,15 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Questionnaire Complete</title>
+    <title>Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Questionnaire Complete</h1>
-    <h2>Answers:</h2>
-    <ul>
-        {% for question, answer in zip(questions, answers.values()) %}
-            <li><strong>{{ question }}:</strong> {{ answer }}</li>
-        {% endfor %}
-    </ul>
+    <div class="container">
+        <h1>Questionnaire Results</h1>
+        <h2>Your Answers</h2>
+        <ul>
+            {% for answer in answers %}
+                <li>{{ loop.index }}: {{ answer }}</li>
+            {% endfor %}
+        </ul>
+        {% if score %}
+            <h2>Your Score: {{ score }}</h2>
+        {% endif %}
+        <div>
+            <textarea id="notes" name="notes" rows="4" cols="50" placeholder="Enter notes here..."></textarea>
+        </div>
+        <button class="button" onclick="window.print();">Print Results</button>
+    </div>
 </body>
 </html>

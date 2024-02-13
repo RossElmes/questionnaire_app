@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Questionnaire App</title>
+    <meta viewport="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Question {{ index + 1 }}</h1>
-    <form method="post" action="{{ url_for('next_question') }}">
-        <p>{{ question }}</p>
-        <input type="text" name="index" value="{{ index }}">
-        <button type="submit">Next</button>
-    </form>
+    <div class="container">
+        <h1>Welcome to the Questionnaire</h1>
+        <a href="/patient" class="button">Start</a>
+    </div>
 </body>
 </html>
