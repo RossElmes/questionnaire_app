@@ -1,0 +1,92 @@
+answer_id,question_id,question_iter,answer_text,answer_value,logic,questionnaire_unique_id
+Q001A1,Q001,1,Male,1,addition,37ceeca6-60a6-4bf3-950c-32e9575c8eef
+Q001A1,Q001,1,Male,1,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q002A2,Q002,2,12-19,5,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q003A1,Q003,3,Yes,0,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q004A2,Q004,4,Retail/Hospitality/Duty Manager,5,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q005A3,Q005,5,9-12 hours,3,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q006A3,Q006,6,7500-9999 steps (Somewhat active),3,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q007A3,Q007,7,"Moderate (brisk walking, recreational swimming, social tennis)",3,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q008A3,Q008,8,I exercise at least once a week,1,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q009A3,Q009,9,Runners (Adidas/Nike),3,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q010A1,Q010,10,Worn from Inside,1,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q011A2,Q011,11,Option 2,2,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q012A2,Q012,12,UK 6-7,2,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q013A2,Q013,13,8-10 stone (50-63kg),2,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q014A3,Q014,14,Father,5,multiply,95c61877-313d-4102-b281-3d0a3c27dcad
+Q015A4,Q015,15,Grandfather,3,multiply,95c61877-313d-4102-b281-3d0a3c27dcad
+Q017A3,Q017,16,Father,5,multiply,95c61877-313d-4102-b281-3d0a3c27dcad
+Q018A2,Q018,17,Mother,5,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q019A3,Q019,18,Mild flat foot (Mild pes planus),2,multiply,95c61877-313d-4102-b281-3d0a3c27dcad
+Q020A2,Q020,19,Sore feet,2,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q021A1,Q021,20,Yes,2,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q022A2,Q022,21,Bunion/Hallux Valgus,2,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q023A1,Q023,22,Yes,5,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q023A1,Q024,23,Yes,5,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q023A1,Q025,24,Yes,5,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q023A1,Q023,22,Yes,5,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q023A1,Q024,23,Yes,5,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q023A1,Q025,24,Yes,5,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q023A1,Q023,22,Yes,5,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q023A1,Q024,23,Yes,5,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q023A1,Q025,24,Yes,5,addition,95c61877-313d-4102-b281-3d0a3c27dcad
+Q001A1,Q001,1,Male,1,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q002A2,Q002,2,12-19,5,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q003A1,Q003,3,Yes,0,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q004A2,Q004,4,Retail/Hospitality/Duty Manager,5,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q005A3,Q005,5,9-12 hours,3,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q006A3,Q006,6,7500-9999 steps (Somewhat active),3,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q007A3,Q007,7,"Moderate (brisk walking, recreational swimming, social tennis)",3,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q008A3,Q008,8,I exercise at least once a week,1,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q009A3,Q009,9,Runners (Adidas/Nike),3,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q010A1,Q010,10,Worn from Inside,1,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q011A2,Q011,11,Option 2,2,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q012A2,Q012,12,UK 6-7,2,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q013A2,Q013,13,8-10 stone (50-63kg),2,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q014A3,Q014,14,Father,5,multiply,85435118-154b-4f8c-a22f-dd315319b4b3
+Q015A4,Q015,15,Grandfather,3,multiply,85435118-154b-4f8c-a22f-dd315319b4b3
+Q017A3,Q017,16,Father,5,multiply,85435118-154b-4f8c-a22f-dd315319b4b3
+Q018A2,Q018,17,Mother,5,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q019A3,Q019,18,Mild flat foot (Mild pes planus),2,multiply,85435118-154b-4f8c-a22f-dd315319b4b3
+Q020A2,Q020,19,Sore feet,2,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q021A1,Q021,20,Yes,2,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q022A2,Q022,21,Bunion/Hallux Valgus,2,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q023A1,Q023,22,Yes,5,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q023A1,Q024,23,Yes,5,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q023A1,Q025,24,Yes,5,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q023A1,Q023,22,Yes,5,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q023A1,Q024,23,Yes,5,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q023A1,Q025,24,Yes,5,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q023A1,Q023,22,Yes,5,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q023A1,Q024,23,Yes,5,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q023A1,Q025,24,Yes,5,addition,85435118-154b-4f8c-a22f-dd315319b4b3
+Q001A1,Q001,1,Male,1,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q002A1,Q002,2,Under 12,6,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q003A1,Q003,3,Yes,0,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q004A4,Q004,4,Teacher/Education,3,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q005A3,Q005,5,9-12 hours,3,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q006A4,Q006,6,10000-12499 steps (Active),3,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q007A4,Q007,7,"Vigorous (competitive sports, jogging, aerobic exercise, weight lifting",4,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q008A5,Q008,8,I exercise at least five times a week,3,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q009A4,Q009,9,Runners (Brooks/Asics),4,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q010A2,Q010,10,Worn from Outside,2,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q011A2,Q011,11,Option 2,2,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q012A2,Q012,12,UK 6-7,2,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q013A2,Q013,13,8-10 stone (50-63kg),2,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q014A2,Q014,14,Mother,5,multiply,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q015A2,Q015,15,Mother,5,multiply,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q017A2,Q017,16,Mother,5,multiply,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q018A2,Q018,17,Mother,5,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q019A2,Q019,18,Middle of the road arch (Subtle pes cavus),1,multiply,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q020A1,Q020,19,Heel Pain,1,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q021A1,Q021,20,Yes,2,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q022A1,Q022,21,Hammer toe/mallet toe,1,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q023A1,Q023,22,Yes,5,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q023A1,Q024,23,Yes,5,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q023A1,Q025,24,Yes,5,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q023A1,Q023,22,Yes,5,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q023A1,Q024,23,Yes,5,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q023A1,Q025,24,Yes,5,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q023A1,Q023,22,Yes,5,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q023A1,Q024,23,Yes,5,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528
+Q023A1,Q025,24,Yes,5,addition,bb8ec73c-5c68-4a0c-ac67-12b349d6a528

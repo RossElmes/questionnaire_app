@@ -9,6 +9,14 @@
 <body>
     <div class="container">
         <h1>Questionnaire Results</h1>
+        <h2>Patient Details</h2>
+            <div>
+                {{patient_details.patientName}}
+                <br>
+                {{patient_details.patientAge}}
+                <br>
+                {{patient_details.patientGender}}
+            </div>
         <h2>Your Answers</h2>
         <ul>
             {% for answer in answers %}

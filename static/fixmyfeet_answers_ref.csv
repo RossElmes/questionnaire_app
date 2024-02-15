@@ -61,34 +61,6 @@ Q013,13,Q013A2,8-10 stone (50-63kg),2,addition
 Q013,13,Q013A3,11-13 stone (69-82kg),3,addition
 Q013,13,Q013A4,14-17 stone (89-108kg),4,addition
 Q013,13,Q013A5,18+ stone (114kg),5,addition
-Q018,18,Q018A1,Yourself,6,addition
-Q018,18,Q018A2,Mother,5,addition
-Q018,18,Q018A3,Father,5,addition
-Q018,18,Q018A4,Grandfather,3,addition
-Q018,18,Q018A5,Grandmother,3,addition
-Q018,18,Q018A6,Aunt or Uncle,2,addition
-Q018,18,Q018A7,No history,0,addition
-Q020,20,Q020A1,Heel Pain,1,addition
-Q020,20,Q020A2,Sore feet,2,addition
-Q020,20,Q020A3,Achilles tendon pain,3,addition
-Q020,20,Q020A4,Back Pain,4,addition
-Q020,20,Q020A5,Knee Pain,5,addition
-Q020,20,Q020A6,Hip Pain,6,addition
-Q020,20,Q020A7,Tight Calves,7,addition
-Q020,20,Q020A8,Shin splints,8,addition
-Q020,20,Q020A9,No history of any of the above,0,addition
-Q021,21,Q021A1,Yes,2,addition
-Q021,21,Q021A2,No,1,addition
-Q022,22,Q022A1,Hammer toe/mallet toe,1,addition
-Q022,2,Q022A2,Bunion/Hallux Valgus,2,addition
-Q022,22,Q022A3,Tailor bunion (bunionette),3,addition
-Q022,22,Q022A4,No history of the following medical conditions,0,addition
-Q023,23,Q023A1,Yes,5,addition
-Q023,23,Q023A2,No,0,addition
-Q024,24,Q023A1,Yes,5,addition
-Q024,24,Q023A2,No,0,addition
-Q025,25,Q023A1,Yes,5,addition
-Q025,25,Q023A2,No,0,addition
 Q014,14,Q014A1,Yourself,6,multiply
 Q014,14,Q014A2,Mother,5,multiply
 Q014,14,Q014A3,Father,5,multiply
@@ -110,9 +82,37 @@ Q017,16,Q017A4,Grandfather,3,multiply
 Q017,16,Q017A5,Grandmother,3,multiply
 Q017,16,Q017A6,Aunt or Uncle,2,multiply
 Q017,16,Q017A7,No history,1,multiply
-Q019,19,Q019A1,Severe high arch (Severe pes cavus),1,multiply
-Q019,19,Q019A2,Middle of the road arch (Subtle pes cavus),1,multiply
-Q019,19,Q019A3,Mild flat foot (Mild pes planus),2,multiply
-Q019,19,Q019A4,Moderate flat foot (Moderate pes planus),2,multiply
-Q019,19,Q019A5,Severe flat foot (Severe pes planovalgus),3,multiply
-Q019,19,Q019A6,Really flat foot (Abductovarus forefoot),3,multiply
+Q018,17,Q018A1,Yourself,6,addition
+Q018,17,Q018A2,Mother,5,addition
+Q018,17,Q018A3,Father,5,addition
+Q018,17,Q018A4,Grandfather,3,addition
+Q018,17,Q018A5,Grandmother,3,addition
+Q018,17,Q018A6,Aunt or Uncle,2,addition
+Q018,17,Q018A7,No history,0,addition
+Q019,18,Q019A1,Severe high arch (Severe pes cavus),1,multiply
+Q019,18,Q019A2,Middle of the road arch (Subtle pes cavus),1,multiply
+Q019,18,Q019A3,Mild flat foot (Mild pes planus),2,multiply
+Q019,18,Q019A4,Moderate flat foot (Moderate pes planus),2,multiply
+Q019,18,Q019A5,Severe flat foot (Severe pes planovalgus),3,multiply
+Q019,18,Q019A6,Really flat foot (Abductovarus forefoot),3,multiply
+Q020,19,Q020A1,Heel Pain,1,addition
+Q020,19,Q020A2,Sore feet,2,addition
+Q020,19,Q020A3,Achilles tendon pain,3,addition
+Q020,19,Q020A4,Back Pain,4,addition
+Q020,19,Q020A5,Knee Pain,5,addition
+Q020,19,Q020A6,Hip Pain,6,addition
+Q020,19,Q020A7,Tight Calves,7,addition
+Q020,19,Q020A8,Shin splints,8,addition
+Q020,19,Q020A9,No history of any of the above,0,addition
+Q021,20,Q021A1,Yes,2,addition
+Q021,20,Q021A2,No,1,addition
+Q022,21,Q022A1,Hammer toe/mallet toe,1,addition
+Q022,21,Q022A2,Bunion/Hallux Valgus,2,addition
+Q022,21,Q022A3,Tailor bunion (bunionette),3,addition
+Q022,21,Q022A4,No history of the following medical conditions,0,addition
+Q023,22,Q023A1,Yes,5,addition
+Q023,22,Q023A2,No,0,addition
+Q024,23,Q023A1,Yes,5,addition
+Q024,23,Q023A2,No,0,addition
+Q025,24,Q023A1,Yes,5,addition
+Q025,24,Q023A2,No,0,addition
