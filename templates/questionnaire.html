@@ -12,8 +12,11 @@
         {% endif %}
         {% for answer in answers %}
         <div>
+            {% if answer.answer_image != "No Image"%}
+                <img src="{{answer.answer_image}}" alt="Option Image">
+            {% endif %}
             <input type="radio" id="answer{{ loop.index }}" name="answer_value" value="{{answer.answer_id}}">
-            <label for="answer{{ loop.index }}">{{answer.answer_text }}</label>
+            <label for="answer{{ loop.index }}">{{answer.answer_text}}</label>
         </div>
         {% endfor %}
         <div>{{question_iter}}</div>

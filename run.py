@@ -10,8 +10,7 @@ question_ref = pd.read_csv('static/fixmyfeet_questions_ref.csv')
 patient_details_table = pd.read_csv('static/questionnaire_patientdetails.csv')
 answers_table = pd.read_csv('static/questionnare_answers.csv')
 
-print(patient_details_table)
-print(answers_table)
+print(answer_ref[answer_ref['answer_image']=='No Image'])
 
 
 @app.route('/')
@@ -38,7 +37,7 @@ def questionnaire(question_iter):
             return redirect(url_for('complete'))
     
     question_text = question_ref.loc[question_ref['question_iter'] == question_iter, 'question_text'].values[0]
-    answers = answer_ref[answer_ref['question_iter'] == question_iter][['answer_id', 'answer_text']]
+    answers = answer_ref[answer_ref['question_iter'] == question_iter][['answer_id', 'answer_text','answer_image']]
     return render_template('questionnaire.html', question=question_text, answers=answers.to_dict(orient='records'), question_iter=question_iter)
 
 
