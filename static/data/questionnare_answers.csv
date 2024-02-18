@@ -360,3 +360,25 @@ Q023A1,Q025,24,Yes,5,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
 Q023A1,Q023,22,Yes,5,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
 Q023A1,Q024,23,Yes,5,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
 Q023A1,Q025,24,Yes,5,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q009A1,Q009,9,Workboots,1,addition,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,../static/images/workboots.png
+Q010A1,Q010,10,Worn from Inside,1,addition,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,../static/images/wornfrominside.png
+Q011A3,Q011,11,I don't suffer from Calluses,0,addition,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,No Image
+Q012A6,Q012,12,UK 14+,6,addition,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,No Image
+Q013A4,Q013,13,14-17 stone (89-108kg),4,addition,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,No Image
+Q014A3,Q014,14,Father,5,multiply,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,No Image
+Q015A2,Q015,15,Mother,5,multiply,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,No Image
+Q017A2,Q017,16,Mother,5,multiply,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,No Image
+Q018A2,Q018,17,Mother,5,addition,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,No Image
+Q019A1,Q019,18,Severe high arch (Severe pes cavus),1,multiply,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,../static/images/severehigharch.png
+Q020A5,Q020,19,Knee Pain,5,addition,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,No Image
+Q021A1,Q021,20,Yes,2,addition,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,No Image
+Q022A1,Q022,21,Hammer toe/mallet toe,1,addition,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,../static/images/hammertoemallettoe.png
+Q023A1,Q023,22,Yes,5,addition,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,No Image
+Q023A1,Q024,23,Yes,5,addition,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,No Image
+Q023A1,Q025,24,Yes,5,addition,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,No Image
+Q023A1,Q023,22,Yes,5,addition,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,No Image
+Q023A1,Q024,23,Yes,5,addition,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,No Image
+Q023A1,Q025,24,Yes,5,addition,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,No Image
+Q023A1,Q023,22,Yes,5,addition,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,No Image
+Q023A1,Q024,23,Yes,5,addition,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,No Image
+Q023A1,Q025,24,Yes,5,addition,0a2cd3f0-8ef2-4822-8eec-2e8dcb17d11d,No Image
