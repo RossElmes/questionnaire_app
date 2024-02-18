@@ -34,7 +34,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 .patient-container {
@@ -87,7 +87,8 @@ h2 {
 
 .complete-container{
     position: relative;
-    max-width: 600px;
+    max-width: 800px;
+    min-width: 600px;
     margin: auto;
     padding: 20px;
     background-color: #fff;
@@ -110,19 +111,21 @@ h2 {
     text-align: right;
 }
 
-.data {
-    border-collapse: collapse;
-    width: 100%;
+body {
+    position: relative; /* Ensures the child elements can be positioned absolutely relative to the body */
 }
-.data td, .data th {
-    border: 1px solid #ddd;
-    padding: 8px;
+
+.back-to-start {
+    position: absolute; /* Position the link absolutely within the body */
+    bottom: 0px; /* 20px from the bottom */
+    right: 20px; /* 20px from the right */
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #007bff; /* Example button color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Optional: rounds the corners of the button */
 }
-.data tr:nth-child(even){background-color: #f2f2f2;}
-.data th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #04AA6D;
-    color: white;
+
+.back-to-start:hover {
+    background-color: #0056b3; /* Darker shade when hovered for visual feedback */
 }

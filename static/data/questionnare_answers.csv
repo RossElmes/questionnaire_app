@@ -270,33 +270,93 @@ Q023A1,Q025,24,Yes,5,addition,a8d19e93-190c-4126-90ad-de38498c902b,No Image
 Q023A1,Q023,22,Yes,5,addition,a8d19e93-190c-4126-90ad-de38498c902b,No Image
 Q023A1,Q024,23,Yes,5,addition,a8d19e93-190c-4126-90ad-de38498c902b,No Image
 Q023A1,Q025,24,Yes,5,addition,a8d19e93-190c-4126-90ad-de38498c902b,No Image
-Q001A1,Q001,1,Male,1,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q002A1,Q002,2,Under 12,6,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q003A1,Q003,3,Yes,0,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q004A1,Q004,4,Office Work,6,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q005A1,Q005,5,1-4 hours,1,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q006A2,Q006,6,5000-7499 steps (Low activity),2,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q007A4,Q007,7,"Vigorous (competitive sports, jogging, aerobic exercise, weight lifting",4,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q008A2,Q008,8,I exercise ocasionally,1,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q009A1,Q009,9,Workboots,1,addition,fefdf682-a666-425f-b968-c65401bcceab,../static/workboots.png
-Q010A2,Q010,10,Worn from Outside,2,addition,fefdf682-a666-425f-b968-c65401bcceab,../static/wornfromoutside.png
-Q011A3,Q011,11,I don't suffer from Calluses,0,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q012A4,Q012,12,UK 10-11,4,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q013A2,Q013,13,8-10 stone (50-63kg),2,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q014A1,Q014,14,Yourself,6,multiply,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q015A3,Q015,15,Father,5,multiply,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q017A1,Q017,16,Yourself,6,multiply,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q018A1,Q018,17,Yourself,6,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q019A1,Q019,18,Severe high arch (Severe pes cavus),1,multiply,fefdf682-a666-425f-b968-c65401bcceab,../static/severehigharch.png
-Q020A1,Q020,19,Heel Pain,1,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q021A1,Q021,20,Yes,2,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q022A1,Q022,21,Hammer toe/mallet toe,1,addition,fefdf682-a666-425f-b968-c65401bcceab,../static/hammertoemallettoe.png
-Q023A1,Q023,22,Yes,5,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q023A1,Q024,23,Yes,5,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q023A1,Q025,24,Yes,5,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q023A1,Q023,22,Yes,5,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q023A1,Q024,23,Yes,5,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q023A1,Q025,24,Yes,5,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q023A1,Q023,22,Yes,5,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q023A1,Q024,23,Yes,5,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
-Q023A1,Q025,24,Yes,5,addition,fefdf682-a666-425f-b968-c65401bcceab,No Image
+Q001A1,Q001,1,Male,1,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q002A1,Q002,2,Under 12,6,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q003A1,Q003,3,Yes,0,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q004A1,Q004,4,Office Work,6,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q005A1,Q005,5,1-4 hours,1,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q006A1,Q006,6,2500-4999 steps (Staionary with limited activity),1,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q007A1,Q007,7,No,1,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q008A1,Q008,8,I don't exercise,1,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q009A1,Q009,9,Workboots,1,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,../static/workboots.png
+Q010A1,Q010,10,Worn from Inside,1,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,../static/wornfrominside.png
+Q011A1,Q011,11,Option 1,1,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,../static/option1.png
+Q012A4,Q012,12,UK 10-11,4,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q013A3,Q013,13,11-13 stone (69-82kg),3,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q014A3,Q014,14,Father,5,multiply,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q015A3,Q015,15,Father,5,multiply,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q017A3,Q017,16,Father,5,multiply,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q018A3,Q018,17,Father,5,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q019A1,Q019,18,Severe high arch (Severe pes cavus),1,multiply,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,../static/severehigharch.png
+Q020A8,Q020,19,Shin splints,8,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q021A2,Q021,20,No,1,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q022A1,Q022,21,Hammer toe/mallet toe,1,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,../static/hammertoemallettoe.png
+Q023A1,Q023,22,Yes,5,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q023A1,Q024,23,Yes,5,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q023A1,Q025,24,Yes,5,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q023A1,Q023,22,Yes,5,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q023A1,Q024,23,Yes,5,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q023A1,Q025,24,Yes,5,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q023A1,Q023,22,Yes,5,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q023A1,Q024,23,Yes,5,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q023A1,Q025,24,Yes,5,addition,a85b14e7-5cf5-4d31-9db1-be84c4da30c8,No Image
+Q001A1,Q001,1,Male,1,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q002A1,Q002,2,Under 12,6,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q003A1,Q003,3,Yes,0,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q004A1,Q004,4,Office Work,6,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q005A1,Q005,5,1-4 hours,1,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q006A1,Q006,6,2500-4999 steps (Staionary with limited activity),1,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q007A1,Q007,7,No,1,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q008A1,Q008,8,I don't exercise,1,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q009A1,Q009,9,Workboots,1,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,../static/workboots.png
+Q010A1,Q010,10,Worn from Inside,1,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,../static/wornfrominside.png
+Q011A1,Q011,11,Option 1,1,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,../static/option1.png
+Q012A5,Q012,12,UK 12-13,5,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q013A3,Q013,13,11-13 stone (69-82kg),3,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q014A1,Q014,14,Yourself,6,multiply,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q015A2,Q015,15,Mother,5,multiply,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q017A2,Q017,16,Mother,5,multiply,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q018A1,Q018,17,Yourself,6,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q019A1,Q019,18,Severe high arch (Severe pes cavus),1,multiply,25d2d2f8-d403-43a3-955d-2e162aec0fdf,../static/severehigharch.png
+Q020A3,Q020,19,Achilles tendon pain,3,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q021A1,Q021,20,Yes,2,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q022A1,Q022,21,Hammer toe/mallet toe,1,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,../static/hammertoemallettoe.png
+Q023A1,Q023,22,Yes,5,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q023A1,Q024,23,Yes,5,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q023A1,Q025,24,Yes,5,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q023A1,Q023,22,Yes,5,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q023A1,Q024,23,Yes,5,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q023A1,Q025,24,Yes,5,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q023A1,Q023,22,Yes,5,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q023A1,Q024,23,Yes,5,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q023A1,Q025,24,Yes,5,addition,25d2d2f8-d403-43a3-955d-2e162aec0fdf,No Image
+Q001A3,Q001,1,Prefer not to Answer,1,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q002A2,Q002,2,12-19,5,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q003A2,Q003,3,No,0,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q004A1,Q004,4,Office Work,6,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q005A2,Q005,5,5-8 hours,2,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q006A2,Q006,6,5000-7499 steps (Low activity),2,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q007A2,Q007,7,"Light (house duties, light walking)",2,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q008A2,Q008,8,I exercise ocasionally,1,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q009A1,Q009,9,Workboots,1,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,../static/images/workboots.png
+Q010A1,Q010,10,Worn from Inside,1,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,../static/images/wornfrominside.png
+Q011A1,Q011,11,Option 1,1,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,../static/images/option1.png
+Q012A6,Q012,12,UK 14+,6,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q013A4,Q013,13,14-17 stone (89-108kg),4,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q014A3,Q014,14,Father,5,multiply,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q015A3,Q015,15,Father,5,multiply,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q017A3,Q017,16,Father,5,multiply,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q018A2,Q018,17,Mother,5,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q019A1,Q019,18,Severe high arch (Severe pes cavus),1,multiply,1ce3af36-1dd4-4c06-82c2-484f89c987cc,../static/images/severehigharch.png
+Q020A2,Q020,19,Sore feet,2,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q021A2,Q021,20,No,1,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q022A1,Q022,21,Hammer toe/mallet toe,1,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,../static/images/hammertoemallettoe.png
+Q023A1,Q023,22,Yes,5,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q023A1,Q024,23,Yes,5,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q023A1,Q025,24,Yes,5,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q023A1,Q023,22,Yes,5,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q023A1,Q024,23,Yes,5,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q023A1,Q025,24,Yes,5,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q023A1,Q023,22,Yes,5,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q023A1,Q024,23,Yes,5,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image
+Q023A1,Q025,24,Yes,5,addition,1ce3af36-1dd4-4c06-82c2-484f89c987cc,No Image

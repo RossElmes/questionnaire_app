@@ -6,10 +6,10 @@ from datetime import date
 app = Flask(__name__,template_folder='templates')
 app.secret_key = 'your_secret_key'
 
-answer_ref = pd.read_csv('static/fixmyfeet_answers_ref.csv')
-question_ref = pd.read_csv('static/fixmyfeet_questions_ref.csv')
-patient_details_table = pd.read_csv('static/questionnaire_patientdetails2.csv')
-answers_table = pd.read_csv('static/questionnare_answers.csv')
+answer_ref = pd.read_csv('static/data/fixmyfeet_answers_ref.csv')
+question_ref = pd.read_csv('static/data/fixmyfeet_questions_ref.csv')
+patient_details_table = pd.read_csv('static/data/questionnaire_patientdetails.csv')
+answers_table = pd.read_csv('static/data/questionnare_answers.csv')
 
 @app.route('/')
 def index():
@@ -97,8 +97,8 @@ def complete():
     
     
     ## Write the answers to the results table 
-    patient_details_table.to_csv('static/questionnaire_patientdetails2.csv',index=False)
-    merged_df_new.to_csv('static/questionnare_answers2.csv',index=False)
+    patient_details_df_new.to_csv('static/data/questionnaire_patientdetails.csv',index=False)
+    merged_df_new.to_csv('static/data/questionnare_answers.csv',index=False)
     
          
     # Render the results template, passing in answers or calculated score

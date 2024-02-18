@@ -6,4 +6,11 @@
       background: white;
 
     }
+    .button{
+      display: none;
+    }
+
+    .back-to-start{
+      display: none;
+    }
   }

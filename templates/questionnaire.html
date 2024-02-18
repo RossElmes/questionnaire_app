@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Questionnaire</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/questionnaire.css') }}">
 </head>
 <body>
     <form action="{{ url_for('questionnaire', question_iter=question_iter) }}" method="post">
         <h2>{{ question }}</h2>
         {% if question.image %}
-            <img src="{{ question.image }}" alt="Question Image">
+            <img src="{{question.image }}" alt="Question Image">
         {% endif %}
         {% for answer in answers %}
         <div>
@@ -19,7 +20,6 @@
             <label for="answer{{ loop.index }}">{{answer.answer_text}}</label>
         </div>
         {% endfor %}
-        <div>{{question_iter}}</div>
         <button type="submit">Next</button>
     </form>
 </body>

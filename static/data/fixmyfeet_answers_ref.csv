@@ -40,15 +40,15 @@ Q008,8,Q008A3,I exercise at least once a week,1,addition,No Image
 Q008,8,Q008A4,I exercise at least three times a week,2,addition,No Image
 Q008,8,Q008A5,I exercise at least five times a week,3,addition,No Image
 Q008,8,Q008A6,I exercise everday,3,addition,No Image
-Q009,9,Q009A1,Workboots,1,addition,../static/workboots.png
-Q009,9,Q009A2,Wellingtons,2,addition,../static/wellingtons.png
-Q009,9,Q009A3,Runners (Adidas/Nike),3,addition,../static/runnerssuchasadidasornike.png
-Q009,9,Q009A4,Runners (Brooks/Asics),4,addition,../static/runnerssuchasbrooksorasics.png
-Q009,9,Q009A5,Leather Shoes,5,addition,../static/leathershoes.png
-Q010,10,Q010A1,Worn from Inside,1,addition,../static/wornfrominside.png
-Q010,10,Q010A2,Worn from Outside,2,addition,../static/wornfromoutside.png
-Q011,11,Q011A1,Option 1,1,addition,../static/option1.png
-Q011,11,Q011A2,Option 2,2,addition,../static/option2.png
+Q009,9,Q009A1,Workboots,1,addition,../static/images/workboots.png
+Q009,9,Q009A2,Wellingtons,2,addition,../static/images/wellingtons.png
+Q009,9,Q009A3,Runners (Adidas/Nike),3,addition,../static/images/runnerssuchasadidasornike.png
+Q009,9,Q009A4,Runners (Brooks/Asics),4,addition,../static/images/runnerssuchasbrooksorasics.png
+Q009,9,Q009A5,Leather Shoes,5,addition,../static/images/leathershoes.png
+Q010,10,Q010A1,Worn from Inside,1,addition,../static/images/wornfrominside.png
+Q010,10,Q010A2,Worn from Outside,2,addition,../static/images/wornfromoutside.png
+Q011,11,Q011A1,Option 1,1,addition,../static/images/option1.png
+Q011,11,Q011A2,Option 2,2,addition,../static/images/option2.png
 Q011,11,Q011A3,I don't suffer from Calluses,0,addition,No Image
 Q012,12,Q012A1,UK 3-5,1,addition,No Image
 Q012,12,Q012A2,UK 6-7,2,addition,No Image
@@ -89,12 +89,12 @@ Q018,17,Q018A4,Grandfather,3,addition,No Image
 Q018,17,Q018A5,Grandmother,3,addition,No Image
 Q018,17,Q018A6,Aunt or Uncle,2,addition,No Image
 Q018,17,Q018A7,No history,0,addition,No Image
-Q019,18,Q019A1,Severe high arch (Severe pes cavus),1,multiply,../static/severehigharch.png
-Q019,18,Q019A2,Middle of the road arch (Subtle pes cavus),1,multiply,../static/middleoftheroadhigharch.png
-Q019,18,Q019A3,Mild flat foot (Mild pes planus),2,multiply,../static/mildflatfoot.png
-Q019,18,Q019A4,Moderate flat foot (Moderate pes planus),2,multiply,../static/moderateflatfoot.png
-Q019,18,Q019A5,Severe flat foot (Severe pes planovalgus),3,multiply,../static/severeflatfoot.png
-Q019,18,Q019A6,Really flat foot (Abductovarus forefoot),3,multiply,../static/severeflatfoot.png
+Q019,18,Q019A1,Severe high arch (Severe pes cavus),1,multiply,../static/images/severehigharch.png
+Q019,18,Q019A2,Middle of the road arch (Subtle pes cavus),1,multiply,../static/images/middleoftheroadhigharch.png
+Q019,18,Q019A3,Mild flat foot (Mild pes planus),2,multiply,../static/images/mildflatfoot.png
+Q019,18,Q019A4,Moderate flat foot (Moderate pes planus),2,multiply,../static/images/moderateflatfoot.png
+Q019,18,Q019A5,Severe flat foot (Severe pes planovalgus),3,multiply,../static/images/severeflatfoot.png
+Q019,18,Q019A6,Really flat foot (Abductovarus forefoot),3,multiply,../static/images/severeflatfoot.png
 Q020,19,Q020A1,Heel Pain,1,addition,No Image
 Q020,19,Q020A2,Sore feet,2,addition,No Image
 Q020,19,Q020A3,Achilles tendon pain,3,addition,No Image
@@ -106,9 +106,9 @@ Q020,19,Q020A8,Shin splints,8,addition,No Image
 Q020,19,Q020A9,No history of any of the above,0,addition,No Image
 Q021,20,Q021A1,Yes,2,addition,No Image
 Q021,20,Q021A2,No,1,addition,No Image
-Q022,21,Q022A1,Hammer toe/mallet toe,1,addition,../static/hammertoemallettoe.png
-Q022,21,Q022A2,Bunion/Hallux Valgus,2,addition,../static/bunionhalluxvalgus.png
-Q022,21,Q022A3,Tailor bunion (bunionette),3,addition,../static/tailorbunionbunionette.png
+Q022,21,Q022A1,Hammer toe/mallet toe,1,addition,../static/images/hammertoemallettoe.png
+Q022,21,Q022A2,Bunion/Hallux Valgus,2,addition,../static/images/bunionhalluxvalgus.png
+Q022,21,Q022A3,Tailor bunion (bunionette),3,addition,../static/images/tailorbunionbunionette.png
 Q022,21,Q022A4,No history of the following medical conditions,0,addition,No Image
 Q023,22,Q023A1,Yes,5,addition,No Image
 Q023,22,Q023A2,No,0,addition,No Image

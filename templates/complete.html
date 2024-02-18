@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Results</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='print.css') }}" media="print">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/print.css') }}" media="print">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">
 </head>
 <body>
     <div class="complete-container">
         <div class="hover-div">
-            <img src="../static/fixmyfeet.png">
+            <img src="../static//images/fixmyfeet.png">
         </div>
         <div class="content">
         <h2>Patient Details</h2>
@@ -32,5 +32,6 @@
         <button class="button" onclick="window.print();">Print Results</button>
     </div>
     </div>  
+    <a href="/" class="back-to-start">Back to Start</a>
 </body>
 </html>
