@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #333;
+}
+
+input[type="text"] {
+    margin: 20px 0;
+    padding: 10px;
+    width: 300px; /* Adjust based on your preference */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+table.data {
+    border-collapse: collapse;
+    width: 80%; /* Adjust based on your preference */
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+table.data th, table.data td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+table.data th {
+    background-color: #04AA6D;
+    color: white;
+}
+
+table.data tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.data tr:hover {
+    background-color: #ddd;
+}
+
+
+body {
+    position: relative; /* Ensures the child elements can be positioned absolutely relative to the body */
+    min-height: 90vh; /* Ensure the body takes up at least the full height of the viewport */
+}
+
+.back-to-start {
+    position: absolute; /* Position the link absolutely within the body */
+    bottom: 0px; /* 20px from the bottom */
+    right: 20px; /* 20px from the right */
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #007bff; /* Example button color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Optional: rounds the corners of the button */
+}
+
+.back-to-start:hover {
+    background-color: #0056b3; /* Darker shade when hovered for visual feedback */
+}

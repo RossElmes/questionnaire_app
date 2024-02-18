@@ -1,0 +1,25 @@
+question_id,question_iter,question_text
+Q001,1,What is your gender?
+Q002,2,What is yor age ?
+Q003,3,Are you a member of VHI?
+Q004,4,Which of the following best describes your current occupation?
+Q005,5,How long is your working day?
+Q006,6,Number of steps per day?
+Q007,7,Are you physically active (after work)?
+Q008,8,How many days per week do you exercise?
+Q009,9,What type of shoes do you wear the most?
+Q010,10,Which of the following looks similar to your old footwear?
+Q011,11,Do you suffer from any of the following types of calluses?
+Q012,12,What is your shoes size?
+Q013,13,What is your weight (Stones)?
+Q014,14,Is there a history of knee replacement?
+Q015,15,Is there a history of hip replacement?
+Q017,16,Is there a history of back problems?
+Q018,17,Do you or any of your family members have a shorter/longer leg (limb length discrepency)?
+Q019,18,Which of the pictures below best describes your feet?
+Q020,19,Do you suffer from any of these ailments?
+Q021,20,Do any of the aliments above wake you up at night?
+Q022,21,Do you suffer from any of the following medical conditions?
+Q023,22,Do you suffer from bow legs (Genu Varum)?
+Q024,23,Do you suffer from double joint knees?
+Q025,24,Do you suffer from Knock knees (Genu Valgum)?

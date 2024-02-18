@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Previous Questionnaires</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/table.css') }}">
+</head>
+<body>
+    <h2>Historic Questionnaires</h2>
+    <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="Search for names..">
+    {{ tables|safe }}
+    <a href="/" class="back-to-start">Back to Start</a>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

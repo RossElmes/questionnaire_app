@@ -1,0 +1,16 @@
+
+@media print {
+    body {
+      font-size: 12pt;
+      color: #000;
+      background: white;
+
+    }
+    .button{
+      display: none;
+    }
+
+    .back-to-start{
+      display: none;
+    }
+  }
