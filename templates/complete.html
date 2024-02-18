@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Results</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='print.css') }}" media="print">
 </head>
 <body>
-    <div class="container">
-        <h1>Questionnaire Results</h1>
+    <div class="complete-container">
+        <div class="hover-div">
+            <img src="../static/fixmyfeet.png">
+        </div>
+        <div class="content">
         <h2>Patient Details</h2>
             <div>
                 {{patient_details.patientName}}
                 <br>
-                {{patient_details.patientAge}}
+                {{patient_details.patientEmail}}
                 <br>
-                {{patient_details.patientGender}}
             </div>
         <h2>Your Answers</h2>
         <ul>
@@ -26,10 +29,8 @@
         {% if score %}
             <h2>Your Score: {{ score }}</h2>
         {% endif %}
-        <div>
-            <textarea id="notes" name="notes" rows="4" cols="50" placeholder="Enter notes here..."></textarea>
-        </div>
         <button class="button" onclick="window.print();">Print Results</button>
     </div>
+    </div>  
 </body>
 </html>

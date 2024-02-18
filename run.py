@@ -1,22 +1,26 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, jsonify ,session
 import pandas as pd
 import uuid as uuid
+from datetime import date
 
 app = Flask(__name__,template_folder='templates')
 app.secret_key = 'your_secret_key'
 
 answer_ref = pd.read_csv('static/fixmyfeet_answers_ref.csv')
 question_ref = pd.read_csv('static/fixmyfeet_questions_ref.csv')
-patient_details_table = pd.read_csv('static/questionnaire_patientdetails.csv')
+patient_details_table = pd.read_csv('static/questionnaire_patientdetails2.csv')
 answers_table = pd.read_csv('static/questionnare_answers.csv')
-
-print(answer_ref[answer_ref['answer_image']=='No Image'])
-
 
 @app.route('/')
 def index():
     session.clear()
     return render_template('index.html', question=question_ref, question_iter=0)
+
+@app.route('/admin')
+def show_results():
+    # Convert the DataFrame to HTML; other parameters can customize the table appearance
+    results_html = patient_details_table.to_html(classes='data', index=False, border=0,header="true")
+    return render_template('admin.html', tables=results_html)
 
 
 @app.route('/questionnaire/<int:question_iter>', methods=['GET', 'POST'])
@@ -44,6 +48,13 @@ def questionnaire(question_iter):
 
 @app.route('/complete')
 def complete():
+    
+    # Get today's date (only the date part, without time)
+    today_date = date.today()
+
+    # Format as a string
+    date_string = today_date.strftime("%Y-%m-%d")
+    
     # Retrieve answers from the session
     answers = session.get('answers', [])
     patient_details = session.get('patient_details', [])
@@ -68,9 +79,9 @@ def complete():
     ## Patient Details Df
     patient_details_df = pd.DataFrame({
     'Patient_Name': patient_details.get('patientName'),
-    'Patient_Age': patient_details.get('patientAge'),
-    'Patient_Gender':patient_details.get('patientGender'),
-    'questionnaire_unique_id':questionnaire_unique_id
+    'Patient_Email': patient_details.get('patientEmail'),
+    'questionnaire_unique_id':questionnaire_unique_id,
+    'complete_date':date_string
     # add as many columns as you have
     },index=[0])
     
@@ -86,8 +97,8 @@ def complete():
     
     
     ## Write the answers to the results table 
-    patient_details_df_new.to_csv('static/questionnaire_patientdetails.csv',index=False)
-    merged_df_new.to_csv('static/questionnare_answers.csv',index=False)
+    patient_details_table.to_csv('static/questionnaire_patientdetails2.csv',index=False)
+    merged_df_new.to_csv('static/questionnare_answers2.csv',index=False)
     
          
     # Render the results template, passing in answers or calculated score

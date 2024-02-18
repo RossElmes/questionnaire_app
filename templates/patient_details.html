@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patient Details</title>
-    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <div class="form-container">
+    <div class="patient-container">
         <form action="/patient" method="POST">
             <h2>Patient Details</h2>
             <div class="form-group">
@@ -15,18 +15,10 @@
                 <input type="text" id="patientName" name="patientName" required>
             </div>
             <div class="form-group">
-                <label for="patientAge">Age:</label>
-                <input type="number" id="patientAge" name="patientAge" required>
+                <label for="patientEmail">Email:</label>
+                <input type="text" id="patientEmail" name="patientEmail" required>
             </div>
-            <div class="form-group">
-                <label for="patientGender">Gender:</label>
-                <select id="patientGender" name="patientGender">
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="other">Other</option>
-                </select>
-            </div>
-            <button type="submit">Start Questionnaire</button>
+            <button type="submit" class="button">Start Questionnaire</button>
         </form>
     </div>
 </body>

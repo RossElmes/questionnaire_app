@@ -1,0 +1,9 @@
+
+@media print {
+    body {
+      font-size: 12pt;
+      color: #000;
+      background: white;
+
+    }
+  }
