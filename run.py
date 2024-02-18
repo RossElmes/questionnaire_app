@@ -19,6 +19,7 @@ def index():
 @app.route('/admin')
 def show_results():
     # Convert the DataFrame to HTML; other parameters can customize the table appearance
+    patient_details_table = pd.read_csv('static/data/questionnaire_patientdetails.csv')
     results_html = patient_details_table.to_html(classes='data', index=False, border=0,header="true")
     return render_template('admin.html', tables=results_html)
 
@@ -100,7 +101,6 @@ def complete():
     patient_details_df_new.to_csv('static/data/questionnaire_patientdetails.csv',index=False)
     merged_df_new.to_csv('static/data/questionnare_answers.csv',index=False)
     
-         
     # Render the results template, passing in answers or calculated score
     return render_template('complete.html', answers=answer_text,score=score,patient_details=patient_details)
 
